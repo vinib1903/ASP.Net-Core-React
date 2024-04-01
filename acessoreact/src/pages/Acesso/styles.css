@@ -1,0 +1,45 @@
+.acesso-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.acesso-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.aluno-foto {
+    margin-bottom: 20px;
+}
+
+.aluno-foto-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover; /* Para garantir que a imagem seja ajustada corretamente na moldura redonda */
+}
+
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.aluno-info {
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
