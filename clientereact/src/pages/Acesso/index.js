@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
-import defaultImage from '../../assets/defaultImage.png'; 
-import './styles.css'; 
+import defaultImage from '../../assets/defaultImage.png';
+import './styles.css';
+import {Link, useNavigate} from 'react-router-dom';
 
 export default function Acesso() {
     const [senha, setSenha] = useState('');
     const [aluno, setAluno] = useState(null);
     const [mensagem, setMensagem] = useState('');
 
-
     const email = localStorage.getItem('email');
     const token = localStorage.getItem('token');
+  
     const authorization = {
         headers : {
           Authorization : `Bearer ${token}`
         }
     }
-
 
     useEffect(() => {
         if (aluno) {
@@ -29,15 +29,15 @@ export default function Acesso() {
     }, [aluno]);
 
     async function handleAcesso() {
-        setAluno(null); 
-        setSenha(''); 
+        setAluno(null);
+        setSenha('');
         setMensagem('');
 
         try {
             const response = await api.get(`/api/Alunos/${senha}/acesso`, authorization);
             setAluno(response.data);
         } catch (error) {
-            setMensagem('Senha inválida!');
+            setMensagem('Senha inválida');
         }
     }
 
@@ -55,6 +55,10 @@ export default function Acesso() {
                 </div>
             )}
             {mensagem && <p className="error-message">{mensagem}</p>}
+
+            <Link className="" to="/alunos" height="30px" width="100%" >Retornar</Link>
         </div>
+
+        
     );
 }

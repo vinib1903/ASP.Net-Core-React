@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import './styles.css';
 import api from '../../services/api';
 import {useNavigate} from 'react-router-dom';
-
-
 import logoImage from '../../assets/cadastro1.png';
 
 export default function Login() {
@@ -30,7 +28,7 @@ export default function Login() {
 
             history('/alunos');
         }catch(error){
-            alert('O login falhou ' + error)
+            alert('O login falhou. Verifique suas credenciais.')
         }      
     }
 

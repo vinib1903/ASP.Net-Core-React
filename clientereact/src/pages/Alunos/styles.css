@@ -95,3 +95,9 @@
     line-height: 21px;
     font-size: 16px;
 }
+
+.aluno-container ul li .buttons-container {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}

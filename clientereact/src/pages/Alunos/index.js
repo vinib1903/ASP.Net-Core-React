@@ -65,13 +65,13 @@ export default function Alunos() {
 
      async function deleteAluno(id){
        try{
-          if(window.confirm('Deseja deletar o aluno de id = ' + id + ' ?'))
+          if(window.confirm('Tem certeza que deseja deletar o aluno?'))
           {
                 await api.delete(`api/alunos/${id}`, authorization);
                 setAlunos(alunos.filter(aluno => aluno.id !== id));
           }
        }catch(error){
-        alert('Não foi possível excluir o aluno')
+        alert('Não foi possível deletar o aluno')
        }
      }
 
@@ -83,9 +83,13 @@ export default function Alunos() {
                <span>Bem-Vindo, <strong>{email}</strong>!</span>
                <Link className="button" to="novo/0">Novo Aluno</Link>
 
+               <Link className="button" to="acesso">Tela de Acesso</Link>
+
                <button onClick={logout} type="button">
                    <FiXCircle size={35}  color="#17202a" />
                </button>
+
+
             </header>
 
             <form>
@@ -97,43 +101,44 @@ export default function Alunos() {
 
             <h1>Relação de Alunos</h1>
             {searchInput.length > 1 ? (
-               <ul> 
-               {filtro.map(aluno => (
-                    <li key={aluno.Id}>
-                        <b>Nome: </b>{aluno.nome}<br/><br/>
-                        <b>Email: </b>{aluno.email}<br/><br/>
-                        <b>Idade: </b>{aluno.idade}<br/><br/>
-                        <b>Senha: </b>{aluno.senha}<br/><br/>
-                        
-                        <button onClick={()=> editAluno(aluno.id)} type="button">
-                            <FiEdit size="25" color="#17202a" />
-                        </button>
-                        <button type="button" onClick= {()=> deleteAluno(aluno.id)}> 
-                            <FiUserX size="25" color="#17202a" />
-                        </button>
-                    </li>
-                ))}
-              </ul>
-              ) : (
-            <ul>
-               {alunos.map(aluno=>(
-                 <li key={aluno.id}>
-                  <b>Nome: </b>{aluno.nome}<br/><br/>
-                  <b>Email: </b>{aluno.email}<br/><br/>
-                  <b>Idade: </b>{aluno.idade}<br/><br/>
-                  <b>Senha: </b>{aluno.senha}<br/><br/>
-
-                 <button onClick={()=> editAluno(aluno.id)} type="button">
-                     <FiEdit size="25" color="#17202a" />
-                 </button>
-
-                 <button type="button" onClick= {()=> deleteAluno(aluno.id)}> 
-                         <FiUserX size="25" color="#17202a" />
-                   </button>
-               </li>
-                ))}
-            </ul>
-           )}
+    <ul> 
+        {filtro.map(aluno => (
+            <li key={aluno.Id}>
+                <div className="buttons-container">
+                    <button onClick={()=> editAluno(aluno.id)} type="button">
+                        <FiEdit size="25" color="#17202a" />
+                    </button>
+                    <button type="button" onClick= {()=> deleteAluno(aluno.id)}> 
+                        <FiUserX size="25" color="#17202a" />
+                    </button>
+                </div>
+                <b>Nome: </b>{aluno.nome}<br/><br/>
+                <b>Email: </b>{aluno.email}<br/><br/>
+                <b>Idade: </b>{aluno.idade}<br/><br/>
+                <b>Senha: </b>{aluno.senha}<br/><br/>
+            </li>
+        ))}
+    </ul>
+) : (
+    <ul>
+        {alunos.map(aluno=>(
+            <li key={aluno.id}>
+                <div className="buttons-container">
+                    <button onClick={()=> editAluno(aluno.id)} type="button">
+                        <FiEdit size="25" color="#17202a" />
+                    </button>
+                    <button type="button" onClick= {()=> deleteAluno(aluno.id)}> 
+                        <FiUserX size="25" color="#17202a" />
+                    </button>
+                </div>
+                <b>Nome: </b>{aluno.nome}<br/><br/>
+                <b>Email: </b>{aluno.email}<br/><br/>
+                <b>Idade: </b>{aluno.idade}<br/><br/>
+                <b>Senha: </b>{aluno.senha}<br/><br/>
+            </li>
+        ))}
+    </ul>
+)}
         </div>
      );
 }

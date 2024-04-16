@@ -139,3 +139,4 @@ C:\Users\vinic\Desktop\ControleAcesso\AlunosApi\AlunosApi\obj\Debug\net5.0\Aluno
 C:\Users\vinic\Desktop\ControleAcesso\AlunosApi\AlunosApi\obj\Debug\net5.0\AlunosApi.genruntimeconfig.cache
 C:\Users\vinic\Desktop\ControleAcesso\AlunosApi\AlunosApi\obj\Debug\net5.0\ref\AlunosApi.dll
 C:\Users\vinic\Desktop\ControleAcesso\AlunosApi\AlunosApi\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\vinic\Desktop\ControleAcesso\AlunosApi\AlunosApi\obj\Debug\net5.0\AlunosApi.sourcelink.json
