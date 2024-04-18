@@ -2,19 +2,21 @@ import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 import defaultImage from '../../assets/defaultImage.png';
 import './styles.css';
-import {Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-export default function Acesso() {
+const Acesso = () => {
     const [senha, setSenha] = useState('');
     const [aluno, setAluno] = useState(null);
     const [mensagem, setMensagem] = useState('');
+    const [darkMode, setDarkMode] = useState(false);
+    const navigate = useNavigate();
 
     const email = localStorage.getItem('email');
     const token = localStorage.getItem('token');
-  
+
     const authorization = {
-        headers : {
-          Authorization : `Bearer ${token}`
+        headers: {
+            Authorization: `Bearer ${token}`
         }
     }
 
@@ -42,23 +44,40 @@ export default function Acesso() {
     }
 
     return (
-        <div className="acesso-container">
+        <div className={`acesso-container ${darkMode ? 'dark-theme' : ''}`}>
+            <div className="theme-toggle">
+                <input type="checkbox" id="dark-mode-toggle" checked={darkMode} onChange={() => setDarkMode(!darkMode)} />
+                <label htmlFor="dark-mode-toggle"></label>
+            </div>
+
             <h2>Digite sua senha</h2>
             <div className="aluno-foto">
                 <img src={aluno ? aluno.foto || defaultImage : defaultImage} alt="Foto do Aluno" className="aluno-foto-img" />
             </div>
             <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} />
-            <button onClick={handleAcesso}>Acessar</button>
-            {aluno && (
-                <div className="aluno-info">
+            <button className={`acessar-button ${darkMode ? 'dark-theme' : ''}`} onClick={handleAcesso}>
+                Acessar
+            </button>
+
+            <div className="aluno-info">
+                {aluno && (
                     <p>Olá {aluno.nome}, tenha um bom treino!</p>
+                )}
+                {!aluno && <div className="placeholder"></div>}
+            </div>
+
+            {mensagem && (
+                <div className="error-message">
+                    <p>{mensagem}</p>
                 </div>
             )}
-            {mensagem && <p className="error-message">{mensagem}</p>}
+            {!mensagem && <div className="placeholder"></div>}
 
-            <Link className="" to="/alunos" height="30px" width="100%" >Retornar</Link>
+            <button className={`return-button ${darkMode ? 'dark-theme' : ''}`} onClick={() => navigate('/alunos')}>
+                Retornar
+            </button>
         </div>
-
-        
     );
 }
+
+export default Acesso;
