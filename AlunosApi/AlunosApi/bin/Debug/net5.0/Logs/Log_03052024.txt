@@ -1,0 +1,4 @@
+03/05/2024 10:13:10:459 - Acesso liberado para o aluno Manuel Bueno com a senha 9898
+03/05/2024 10:13:23:385 - Acesso negado para a senha 1234
+03/05/2024 10:13:32:331 - Acesso negado para a senha 1234
+03/05/2024 10:13:41:996 - Acesso liberado para o aluno string com a senha 8888

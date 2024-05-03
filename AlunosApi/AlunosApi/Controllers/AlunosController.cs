@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace AlunosApi.Controllers
@@ -146,11 +147,35 @@ namespace AlunosApi.Controllers
         {
             try
             {
+                string diretorioLogs = Path.Combine(AppContext.BaseDirectory, "Logs");
+
+                // Verifica se o diretório de logs existe, senão, cria
+                if (!Directory.Exists(diretorioLogs))
+                {
+                    Directory.CreateDirectory(diretorioLogs);
+                }
+
+
+                var caminhoLog = Path.Combine(diretorioLogs, $"Log_{DateTime.Now:ddMMyyyy}.txt");
                 var aluno = await _alunoService.GetAcesso(senha);
+
                 if (aluno == null)
                 {
+                    using (StreamWriter sw = System.IO.File.AppendText(caminhoLog))
+                    {
+                        sw.WriteLine($"{DateTime.Now:dd/MM/yyyy HH:mm:ss:fff} - Acesso negado para a senha {senha}");
+                    }
+
                     return NotFound("Senha inválida!");
                 }
+
+
+                //var caminhoLog = Path.Combine(AppContext.BaseDirectory, "Logs", $"Log_{DateTime.Now:ddMMyyyy}.txt");
+                using (StreamWriter sw = System.IO.File.AppendText(caminhoLog))
+                {
+                    sw.WriteLine($"{DateTime.Now:dd/MM/yyyy HH:mm:ss:fff} - Acesso liberado para o aluno {aluno.Nome} com a senha {senha}");
+                }
+
 
                 return Ok(aluno);
 

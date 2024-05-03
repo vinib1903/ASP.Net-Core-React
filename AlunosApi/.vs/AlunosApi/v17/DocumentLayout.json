@@ -1,66 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\",
+  "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|c:\\users\\vinic\\desktop\\controleacesso\\alunosapi\\alunosapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|c:\\users\\vinic\\desktop\\projects\\controle-acesso\\alunosapi\\alunosapi\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\services\\iauthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\services\\iauthenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\viewmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\viewmodels\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\viewmodels\\usertoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\viewmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\viewmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\alunosapi\\migrations\\20240315195944_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\migrations\\20240315195944_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,188 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlunosController.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Controllers\\AlunosController.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
-              "RelativeToolTip": "AlunosApi\\Controllers\\AlunosController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawCsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T19:15:59.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthenticate.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\IAuthenticate.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Services\\IAuthenticate.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\IAuthenticate.cs",
-              "RelativeToolTip": "AlunosApi\\Services\\IAuthenticate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T23:49:46.412Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Startup.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Startup.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Startup.cs",
-              "RelativeToolTip": "AlunosApi\\Startup.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwCEAAAA3AAAA",
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Controllers\\AlunosController.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "AlunosApi\\Controllers\\AlunosController.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAnwKQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T20:43:33.216Z",
+              "WhenOpened": "2024-05-03T12:50:09.161Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AlunosApi\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:57:24.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\LoginModel.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\ViewModels\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\LoginModel.cs",
-              "RelativeToolTip": "AlunosApi\\ViewModels\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T23:48:40.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\appsettings.json",
-              "RelativeDocumentMoniker": "AlunosApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\appsettings.json",
-              "RelativeToolTip": "AlunosApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-15T14:12:19.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Program.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Program.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Program.cs",
-              "RelativeToolTip": "AlunosApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T20:43:36.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticateService.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\AuthenticateService.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Services\\AuthenticateService.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\AuthenticateService.cs",
-              "RelativeToolTip": "AlunosApi\\Services\\AuthenticateService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T23:49:49.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "AlunosApi\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:57:23.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AlunosService.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\AlunosService.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Services\\AlunosService.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Services\\AlunosService.cs",
-              "RelativeToolTip": "AlunosApi\\Services\\AlunosService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAwwEQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T00:45:14.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserToken.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\UserToken.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\ViewModels\\UserToken.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\UserToken.cs",
-              "RelativeToolTip": "AlunosApi\\ViewModels\\UserToken.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T23:49:33.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\ViewModels\\RegisterModel.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\ViewModels\\RegisterModel.cs",
-              "RelativeToolTip": "AlunosApi\\ViewModels\\RegisterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T23:49:41.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AlunosApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AlunosApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-15T14:12:50.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240315195944_initial.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Migrations\\20240315195944_initial.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Migrations\\20240315195944_initial.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Migrations\\20240315195944_initial.cs",
-              "RelativeToolTip": "AlunosApi\\Migrations\\20240315195944_initial.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T19:59:45.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Aluno.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Models\\Aluno.cs",
-              "RelativeDocumentMoniker": "AlunosApi\\Models\\Aluno.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\Models\\Aluno.cs",
-              "RelativeToolTip": "AlunosApi\\Models\\Aluno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:57:09.551Z"
             }
           ]
         }

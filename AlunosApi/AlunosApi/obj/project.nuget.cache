@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTZrXanfkCdWcK8oFoJrMv9fJ+qVMN74y3/V6wgEAn/NIAaGiJ6ycfPI4S9xfjL8vUeLGzMPfj8/Kned/VxYXA==",
+  "dgSpecHash": "8RFYjSya28ap8Wz/anHeB+50jibmgRP3fwigJfD6KYccC4QD5PvlTsqIxyKsvgQsPCILgSo39oHHO810D3u+aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",

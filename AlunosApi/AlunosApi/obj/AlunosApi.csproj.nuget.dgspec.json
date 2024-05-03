@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {
+    "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
         "projectName": "AlunosApi",
-        "projectPath": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+        "projectPath": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\Desktop\\ControleAcesso\\AlunosApi\\AlunosApi\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\Projects\\controle-acesso\\AlunosApi\\AlunosApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
